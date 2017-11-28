@@ -13,7 +13,7 @@ Playing with 7-Snakes
 > So, after the stack will have then Snake1=(0,0)(1,0) and Snake2=(0,0)(0,1). 
 > After completing a snake with 7 nodes, it birth and is placed into a dictionary thas has a total value as its key and a list of snakes with same total value. 
 > Once new snakes were being generating, a comparing is made into this dictionary to find the first 2 that has the same total amount.
-> Ps: The stacks was used to avoid recursion, it kept the solution iterative and faste
+> Ps: The stacks was used to avoid recursion, it kept the solution iterative and faster.
 
 
 This problem is a typical search problem much like tic-tac-toe or chess. You must search through a (large) space for possible solutions. The cleverness (in our view) is in the way you enumerate the search space.
