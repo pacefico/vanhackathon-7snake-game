@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7SnakeApp", "7SnakeApp\7SnakeApp.csproj", "{F0678909-EF14-42F0-8EB9-46200134E79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{EF5BA421-5367-422F-8696-A35A727B8B75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0678909-EF14-42F0-8EB9-46200134E79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0678909-EF14-42F0-8EB9-46200134E79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0678909-EF14-42F0-8EB9-46200134E79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0678909-EF14-42F0-8EB9-46200134E79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5BA421-5367-422F-8696-A35A727B8B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5BA421-5367-422F-8696-A35A727B8B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5BA421-5367-422F-8696-A35A727B8B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5BA421-5367-422F-8696-A35A727B8B75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92184D1E-7274-483B-9590-9E5C6EF6F9F0}
+	EndGlobalSection
+EndGlobal
