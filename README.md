@@ -6,16 +6,6 @@ Ascent Software Challenge
 http://www.ascentsoftware.eu/
 Playing with 7-Snakes
 
-# My Solution using stacks:
-> My solution use stacks to maintain a list of snakes that aren't completed yet. 
-> It starts with one snake at stack with its first node at a position (0,0) for example, after that its adjacents cells are enumerated, following defined rules. 
-> Next valid nodes in this case would be (1,0)(0,1), a new snake is cloned from the previous one, for each valid node enumerated. 
-> So, after the stack will have then Snake1=(0,0)(1,0) and Snake2=(0,0)(0,1). 
-> After completing a snake with 7 nodes, it birth and is placed into a dictionary thas has a total value as its key and a list of snakes with same total value. 
-> Once new snakes were being generating, a comparing is made into this dictionary to find the first 2 that has the same total amount.
-> Ps: The stacks was used to avoid recursion, it kept the solution iterative and faster.
-
-
 This problem is a typical search problem much like tic-tac-toe or chess. You must search through a (large) space for possible solutions. The cleverness (in our view) is in the way you enumerate the search space.
 Let’s start with some definitions:
 Consider the Grid A below. A 7-Snake is a sequence of cells c1, c2, …,c7 in a grid such that each cell is adjacent to the one before it. 
@@ -38,7 +28,17 @@ If no such pair exists the program should output ‘FAIL’. Otherwise it should
 The solution depends on your ability to enumerate the set of all pairs of distinct 7-Snakes in the given grid.
 In general, the input grid can be any (square) size. Grid B above is just an example of a 10 X 10 grid. The grid should be stored in CSV format on disk and loaded by your solution. This will allow us to test your solution on various test examples. The integers in each cell must range from 1 to 256. 
 
-Solution:
+# My Solution using stack:
+> My solution use stacks to maintain a list of snakes that aren't completed yet. 
+> It starts with one snake at stack with its first node at a position (0,0) for example, after that its adjacents cells are enumerated, following defined rules. 
+> Next valid nodes in this case would be (1,0)(0,1), a new snake is cloned from the previous one, for each valid node enumerated. 
+> So, after the stack will have then Snake1=(0,0)(1,0) and Snake2=(0,0)(0,1). 
+> After completing a snake with 7 nodes, it birth and is placed into a dictionary thas has a total value as its key and a list of snakes with same total value. 
+> Once new snakes were being generating, a comparing is made into this dictionary to find the first 2 that has the same total amount.
+> Ps: The stacks was used to avoid recursion, it kept the solution iterative and faster.
+
+# Results:
+
 ![Solution][solution]
 
 
